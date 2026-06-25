@@ -2,6 +2,7 @@ import os
 
 from password_generator import generate_password
 from network_info import show_network_info
+from file_organizer import organize_downloads
 
 
 def show_system_info():
@@ -30,7 +31,7 @@ def view_notes():
 
 def main():
     while True:
-        print("\n=== Automation Hub ===")
+        print("\n=== Automation Hub v6.0 ===")
         print("1. Say Hello")
         print("2. Show Version")
         print("3. System Information")
@@ -38,7 +39,8 @@ def main():
         print("5. View Notes")
         print("6. Generate Password")
         print("7. Network Information")
-        print("8. Exit")
+        print("8. File Organizer")
+        print("9. Exit")
 
         choice = input("Choose: ")
 
@@ -46,7 +48,7 @@ def main():
             print("Hello, McswazStingHub-Ltd!")
 
         elif choice == "2":
-            print("Automation Hub v5.0")
+            print("Automation Hub v6.0")
 
         elif choice == "3":
             show_system_info()
@@ -64,6 +66,9 @@ def main():
             show_network_info()
 
         elif choice == "8":
+            organize_downloads()
+
+        elif choice == "9":
             print("Goodbye!")
             break
 
