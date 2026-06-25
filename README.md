@@ -1,13 +1,13 @@
 # Automation Hub
 
-Automation and productivity tools built with Python.
+Automation Hub is a collection of Python automation tools.
 
-## Goals
+## Features
 
-- Learn Python professionally
-- Build automation tools
-- Create useful utilities
-- Practice software engineering
+- Task automation
+- File management
+- System monitoring
+- Future AI integrations
 
 ## Author
 
