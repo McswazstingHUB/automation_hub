@@ -1,14 +1,10 @@
 import os
 
+from config import APP_NAME, VERSION, AUTHOR
 from password_generator import generate_password
 from network_info import show_network_info
 from file_organizer import organize_downloads
-
-
-def show_system_info():
-    print("\n=== System Information ===")
-    print(f"Current directory: {os.getcwd()}")
-    print(f"Operating System: {os.name}")
+from system_tools import show_system_info
 
 
 def notes_manager():
@@ -31,7 +27,8 @@ def view_notes():
 
 def main():
     while True:
-        print("\n=== Automation Hub v6.0 ===")
+        print(f"\n=== {APP_NAME} v{VERSION} ===")
+        print(f"Developer: {AUTHOR}")
         print("1. Say Hello")
         print("2. Show Version")
         print("3. System Information")
@@ -45,10 +42,10 @@ def main():
         choice = input("Choose: ")
 
         if choice == "1":
-            print("Hello, McswazStingHub-Ltd!")
+            print(f"Hello, {AUTHOR}!")
 
         elif choice == "2":
-            print("Automation Hub v6.0")
+            print(f"{APP_NAME} v{VERSION}")
 
         elif choice == "3":
             show_system_info()
