@@ -1,13 +1,32 @@
 # Automation Hub
 
-Automation Hub is a collection of Python automation tools.
+Automation Hub is a Python command-line toolkit built on Kali Linux.
 
 ## Features
 
-- Task automation
-- File management
-- System monitoring
-- Future AI integrations
+- Notes Manager
+- Password Generator
+- Network Information
+- System Information
+- File Organizer
+
+## Technologies
+
+- Python 3
+- Git
+- GitHub
+- Kali Linux
+
+## Roadmap
+
+- Logging System
+- AI Utilities
+- Automation Workflows
+- Configuration Settings
+
+## Run
+
+python3 src/main.py
 
 ## Author
 
