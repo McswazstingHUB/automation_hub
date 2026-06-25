@@ -1,16 +1,7 @@
 from src.config import APP_NAME, VERSION, AUTHOR
 
+assert APP_NAME == "Automation Hub"
+assert VERSION == "7.0"
+assert AUTHOR == "McswazStingHub-Ltd"
 
-def test_app_name():
-    assert APP_NAME == "Automation Hub"
-
-
-def test_version():
-    assert VERSION == "7.0"
-
-
-def test_author():
-    assert AUTHOR == "McswazStingHub-Ltd"
-
-
-print("Configuration tests loaded.")
+print("All tests passed.")
