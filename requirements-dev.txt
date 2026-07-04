@@ -1,0 +1,9 @@
+-r requirements.txt
+
+pytest>=8.0.0
+pytest-cov
+black
+ruff
+isort
+mypy
+pre-commit

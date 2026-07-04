@@ -1,5 +1,36 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing
 .pytest_cache/
-notes.txt
-logs/*.log
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports
+reports/
+system_report.txt
+
+# Logs
+*.log
